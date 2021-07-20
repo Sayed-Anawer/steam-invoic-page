@@ -1,0 +1,113 @@
+/* Roboto Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.c-w {
+  color: #fff;
+}
+.c-b{
+   color: #4088da;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1a2837;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #171a21;
+  width: 80%;
+  height: 800px;
+  margin-top: 20px;
+}
+.container img {
+  width: 450px;
+  height: 150px;
+}
+.date,
+.invoice {
+  color: #3379c8;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.recipient {
+  color: #3379c8;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+main {
+  padding-top: 80px;
+  background: #233f60;
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.invoice-part {
+margin-bottom: 100px;
+}
+.invoice-heading {
+  display: flex;
+}
+.h-c {
+  color: #4088da;
+  font-size: 2.2rem;
+}
+.h-mx {
+  margin-right: 104px;
+}
+.t-c {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.mar-left {
+  margin-left: 298px;
+}
+.mar-ri {
+  margin-left:94px;
+}
+.mar-le {
+  margin-left: 165px;
+}
+hr {
+  margin: 20px 0;
+  width: 91%;
+}
+
+.total-part{
+    display: flex;
+    justify-content: space-between;
+}
+.total-l,.total-m{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.test{
+    margin-right: 80px;
+}
+.last-part{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.last-s{
+  font-size: 1.2rem;
+}
+.tax{
+    margin-right: 87px;
+}
